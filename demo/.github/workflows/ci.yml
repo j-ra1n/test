@@ -22,6 +22,7 @@ jobs:
         uses: actions/setup-java@v2
         with:
           java-version: '17'
+          distribution : 'adopt'
 
       # 의존성 설치 및 빌드 실행 (Gradle)
       - name: Build with Gradle
