@@ -4,7 +4,7 @@ name: CI for Pull Requests to Develop
 on:
   pull_request:
     branches:
-      - develop  # develop 브랜치로의 PR에 대해서만 실행
+      - main  # develop 브랜치로의 PR에 대해서만 실행
 
 jobs:
   build:
