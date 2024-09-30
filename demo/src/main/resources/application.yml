@@ -1,0 +1,24 @@
+spring:
+  application:
+    name: test
+
+  datasource:
+    url: jdbc:mysql://127.0.0.1:3306/test?serverTimezone=Asia/Seoul
+    username: jw
+    password: wjddn0922
+    driver-class-name: com.mysql.cj.jdbc.Driver
+
+  jpa:
+    hibernate:
+      ddl-auto: validate
+    properties:
+      hibernate:
+        format_sql: true
+
+logging:
+  level:
+    org.hibernate.SQL: trace
+    org.hibernate.type.descriptor: trace
+    root: info
+
+
